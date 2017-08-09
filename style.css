@@ -5,7 +5,7 @@ body {
   width: 900px;
   font-family: sans-serif;
   border: 1px solid black;
-  margin: 0;
+  margin: auto;
 }
 
 /* Styles for the header */
@@ -16,3 +16,7 @@ header {
 
 /* Styles for the main */
 
+/* Styles for other elements */
+p {
+  padding-left: .5em;
+}
