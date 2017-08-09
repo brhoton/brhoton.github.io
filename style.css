@@ -15,6 +15,7 @@ header {
 h1 {
   font-size: 100%;
   text-align: center;
+  margin: 0;
 }
 
 /* Styles for the main */
