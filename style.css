@@ -25,6 +25,7 @@ nav {
   background-color: #AA3939;
   display: inline-block;
   padding-top: .5em;
+  padding-bottom: .5em;
 }
 a {
   border-right: 1px solid black;
