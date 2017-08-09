@@ -4,6 +4,19 @@
   <title>Bryndon's Test Site</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript">
+    function playGame()
+    {
+      let x = parseInt(prompt('Enter a number.'));
+      if (isNaN(X)) {
+        document.getElementById('output').innerHTML = x + ' is not a number! Please enter a positive integer.'; }
+      else if (x < 0) {
+        document.getElementById('output').innerHTML = x + ' is a negative number! Please enter a positive number.'; }
+      else if {
+        let y = x * 5;
+        documnet.getElementById('output').innerHTML = y; }
+    }
+  </script>
 </head>
 <body>
   <header>
@@ -15,7 +28,7 @@
   </nav>
   <main>
     <p>This is the main page of the test site. From this page you can navigate to projects I have worked on and to view my resume.</p>
-    <p><input type="button" name="game" id="game" value="Click Here to play a Game!"></p>
+    <p><input type="button" name="game" id="game" value="Click Here to play a Game!" onclick="playGame();"></p>
   </main>
 </body>
 </html>
