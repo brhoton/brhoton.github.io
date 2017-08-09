@@ -1,0 +1,17 @@
+/* This file contains all the styles for the webpages available under the brhoton.github.io repository */
+/* Styles for the body */
+body {
+  background-color: #FFAAAA;
+  width: 900px;
+  font-family: sans-serif;
+  border: 1px solid black;
+}
+
+/* Styles for the header */
+header {
+  border-bottom: 1px solid black;
+}
+
+/* Styles for the main */
+
+  
