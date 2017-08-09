@@ -23,10 +23,12 @@ h1 {
 /* Styles for the nav */
 nav {
    display: inline-block;
+  padding-top: .5em;
 }
 a {
   border-right: 1px solid black;
   padding-left: 1em;
+  padding-right: 1em;
 }
 /* Styles for other elements */
 p {
