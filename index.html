@@ -8,14 +8,16 @@
     function playGame()
     {
       let x = 0;
-      x = parseInt(prompt('Enter a number.'));
-      if (isNaN(X)) {
+      x = (prompt('Enter a number.'));
+      x = parseInt(x);
+      
+      if (isNaN(x)) {
         document.getElementById('output').innerHTML = x + ' is not a number! Please enter a positive integer.'; }
       else if (x < 0) {
         document.getElementById('output').innerHTML = x + ' is a negative number! Please enter a positive number.'; }
       else if {
         let y = x * 5;
-        documnet.getElementById('output').innerHTML = y; }
+        documnet.getElementById('output').innerHTML = 'Result ' + y; }
     }
   </script>
 </head>
@@ -31,6 +33,8 @@
   <main>
     <p>This is the main page of the test site. From this page you can navigate to projects I have worked on and to view my resume.</p>
     <p><input type="button" name="game" id="game" value="Click Here to play a Game!" onclick="playGame();"></p>
+    <br>
+    <span id="output"></span>
   </main>
 </body>
 </html>
