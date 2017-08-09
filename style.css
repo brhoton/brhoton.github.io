@@ -5,6 +5,7 @@ body {
   width: 900px;
   font-family: sans-serif;
   border: 1px solid black;
+  margin: auto;
 }
 
 /* Styles for the header */
