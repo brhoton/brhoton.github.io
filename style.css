@@ -20,6 +20,15 @@ h1 {
 
 /* Styles for the main */
 
+/* Styles for the nav */
+nav {
+   display: inline-block;
+   float: left;
+}
+a {
+  float: clear;
+  border-right: 1px solid black;
+
 /* Styles for other elements */
 p {
   padding-left: .5em;
