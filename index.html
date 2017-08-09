@@ -7,7 +7,8 @@
   <script type="text/javascript">
     function playGame()
     {
-      let x = parseInt(prompt('Enter a number.'));
+      let x = 0;
+      x = parseInt(prompt('Enter a number.'));
       if (isNaN(X)) {
         document.getElementById('output').innerHTML = x + ' is not a number! Please enter a positive integer.'; }
       else if (x < 0) {
