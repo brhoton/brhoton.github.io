@@ -13,7 +13,8 @@ header {
   border-bottom: 1px solid black; 
 }
 h1 {
-  font-size: 150%;
+  font-size: 100%;
+  text-align: center;
 }
 
 /* Styles for the main */
