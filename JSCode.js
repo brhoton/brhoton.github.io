@@ -2,7 +2,7 @@
     {
       let x = 0;
       let y = 0;
-      x = (prompt('Enter a number.'));
+      x = prompt('Enter a number.');
       x = parseInt(x);
       
       if (isNaN(x)) {
